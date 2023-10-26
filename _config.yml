@@ -19,7 +19,7 @@ locale                   : "ko-KR" # 언어설정
 title                    : "형구's iDevlog" # 블로그 제목
 title_separator          : "|"
 subtitle                 : "형구 개발 노트" # 블로그 소제목
-name                     : "hyunggu"
+name                     : "Hyunggu Cho"
 description              : "개발 기록 저장소"
 url                      : "https://cho407.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -30,9 +30,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : true # 글 들어갔을때 경로 보여주는기능
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "iDevlog" 
+    shortname            : #shortname 
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -41,8 +41,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "github-light" # "github-light" (default), "github-dark"
+    issue_term           : "pathname" # "pathname" (default)
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
@@ -61,9 +61,9 @@ atom_feed:
   hide                   : true # true, false (default)
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          : algolia # lunr (default), algolia, google
+search_provider          : lunr # lunr (default), algolia, google
 lunr:
-  search_within_pages    : true # true, false (default)
+  search_within_pages    : false # true, false (default)
 algolia:
   application_id         : "TPOTCHZHG7"
   index_name             : # YOUR_INDEX_NAME
@@ -105,8 +105,8 @@ analytics:
 # Site Author
 author:
   name             : "Hyunggu Cho"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "iOS developer \n\n 개발 여정의 기록 저장소:)"
+  avatar           : "/assets/images/bioPhoto.PNG"
+  bio              : "iOS developer \n\n 개발 기록 저장소:)"
   #location         : "Seoul, South Korea"
   #email            : "parfume407@gmail.com"
   links:
@@ -114,7 +114,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "parfume407@gmail.com"
     - label: "medium"
-      icon: "fas fa-fw fa-link"
+      icon: "fa-brands fa-medium fa-xs"
       url: "https://medium.com/@parfume407"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -197,7 +197,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # 한페이지에 들어갈 개시물 개수
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -268,3 +268,7 @@ defaults:
       share: false
       related: true
       show_date: true
+      toc: true
+      toc_sticky: true
+      toc_label: 목차
+      toc_icon: "fas fa-utensils"
