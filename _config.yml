@@ -23,7 +23,7 @@ name                     : "Hyunggu Cho"
 description              : "개발 기록 저장소"
 url                      : "https://cho407.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : cho407/cho407.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logoImage.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
