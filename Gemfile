@@ -8,5 +8,5 @@ gem "jekyll-feed"
 gem "jekyll-include-cache"
 gem "faraday-retry"
 gem 'webrick'
-
+gem "jekyll-algolia"
 

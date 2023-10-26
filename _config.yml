@@ -59,15 +59,15 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : true # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : algolia # lunr (default), algolia, google
 lunr:
-  search_within_pages    : # true, false (default)
+  search_within_pages    : true # true, false (default)
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
+  application_id         : "TPOTCHZHG7"
   index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  search_only_api_key    : "62c5014e17133804e8cdda5e7b79330d"
   powered_by             : # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Hyunggu Cho"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "iOS developer \n\n 개발 여정의 경험 저장소:)"
+  bio              : "iOS developer \n\n 개발 여정의 기록 저장소:)"
   #location         : "Seoul, South Korea"
   #email            : "parfume407@gmail.com"
   links:
