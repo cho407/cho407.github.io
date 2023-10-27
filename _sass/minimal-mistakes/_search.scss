@@ -55,6 +55,7 @@
 
   &__form {
     background-color: transparent;
+    border-bottom: 1px solid $border-color;
   }
 
   .search-input {
@@ -65,14 +66,14 @@
     outline: none;
     box-shadow: none;
     background-color: transparent;
-    font-size: $type-size-3;
+    font-size: $type-size-5;
 
     @include breakpoint($large) {
-      font-size: $type-size-2;
+      font-size: $type-size-4;
     }
 
     @include breakpoint($x-large) {
-      font-size: $type-size-1;
+      font-size: $type-size-3;
     }
   }
 

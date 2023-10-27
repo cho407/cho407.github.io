@@ -1,16 +1,51 @@
 # main links
 main:
-  - title: "Category"
-    url: /categories/
-  - title: "Tag"
-    url: /tags/
+  - title: "Home"
+    url: /
+
+  - title: Swift Development
+    sublinks:
+      - title: Swift
+        url: /swift/
+      - title: App
+        url: /App/
+      - title: WWDC
+        url: /WWDC/
+
+  - title: Interests
+    sublinks:
+      - title: CS
+        url: /CS/
+      - title: Architecture & Patterns
+        url: /architecture&Patterns/
+      - title: Algorithms
+        url: /algorithms/
+      - title: Others
+        url: /other/
+
+  - title: "Portfolio"
+    url: /portfolio/
+
 docs:
-  - title: "메뉴"
+  - title: Swift Development
     children:
-      - title: "Category"
-        url: /categories/
-      - title: "tag"
-        url: /tags/
+      - title: Swift
+        url: /swift/
+      - title: App
+        url: /app/
+      - title: WWDC
+        url: /WWDC/
+  - title: Interests
+    children:
+      - title: CS
+        url: /CS/
+      - title: Architecture & Patterns
+        url: /architecture&Patterns/
+      - title: Algorithms
+        url: /algorithms/
+      - title: Others
+        url: /other/
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
