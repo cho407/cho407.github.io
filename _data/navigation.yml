@@ -3,12 +3,15 @@ main:
   - title: "Home"
     url: /
 
+  - title: "All Posts"
+    url: /posts/
+
   - title: Swift Development
     sublinks:
       - title: Swift
         url: /swift/
       - title: App
-        url: /App/
+        url: /app/
       - title: WWDC
         url: /WWDC/
 
@@ -23,8 +26,8 @@ main:
       - title: Others
         url: /other/
 
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Projects"
+    url: /projects/
 
 docs:
   - title: Swift Development

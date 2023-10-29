@@ -108,17 +108,17 @@ author:
   avatar           : "/assets/images/bioPhoto.PNG"
   bio              : "iOS developer \n\n Hello,world!"
   #location         : "Seoul, South Korea"
-  #email            : "parfume407@gmail.com"
+  # email            : "parfume407@gmail.com"
   links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/cho407"
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope"
       url: "parfume407@gmail.com"
     - label: "medium"
       icon: "fab fa-fw fa-medium"
       url: "https://medium.com/@parfume407"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/cho407"
 
 # Site Footer
 footer:
@@ -126,6 +126,10 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/cho407"
+    - label: "medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@parfume407"
+
 
 
 
@@ -255,7 +259,7 @@ compress_html:
 
 # collections
 collections:
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
 
@@ -275,12 +279,12 @@ defaults:
       show_date: true
       toc_label: TOC
       toc_icon: none
-      
-defaults:
-  # _portfolio
+      toc: true
+      toc_sticky: true
+  # _projects
   - scope:
       path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
       author_profile: false

@@ -1,8 +1,8 @@
 ---
-title: Portfolio
+title: Projects
 layout: collection
-permalink: /portfolio/
-collection: portfolio
+permalink: /projects/
+collection: projects
 author_profile: true
 entries_layout: grid
 classes: wide
