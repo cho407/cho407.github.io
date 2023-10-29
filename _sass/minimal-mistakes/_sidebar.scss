@@ -188,7 +188,7 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
+  display: none;
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 20;
@@ -213,7 +213,8 @@
   button {
     position: relative;
     margin-bottom: 0;
-
+    margin-left: 1em;
+  
     &:before {
       @supports (pointer-events: none) {
         content: '';

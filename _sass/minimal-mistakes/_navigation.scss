@@ -219,22 +219,7 @@
     width: auto;
     box-sizing: border-box;
   }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgb(255, 255, 255); 
-    box-shadow: $box-shadow;
-    z-index: 1;
-    box-sizing: border-box;
-   
-}
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-    // font-size: 17px;
-  }
-
+  
   .dropdown-item {
     padding: 10px;
     font-size: 15px;
@@ -251,6 +236,25 @@
     -ms-flex: 1;
     flex: 1;
     overflow: hidden;
+
+    // visible links 일 때 dropdown-content
+    .dropdown-content {
+      display: block;
+      position: absolute;
+      background-color: rgb(255, 255, 255); 
+      box-shadow: $box-shadow;
+      z-index: 1;
+      box-sizing: border-box;
+      overflow: hidden;
+      opacity: 0;
+      max-height: 0;
+      transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
+    }
+  
+    .dropdown:hover .dropdown-content {
+      opacity: 1;
+      max-height: 300px;
+    }
 
     li {
       -webkit-box-flex: 0;
@@ -299,7 +303,26 @@
     &.hidden {
       display: none;
     }
+       // hidden links 일 때 dropdown-content
+    .dropdown-content {
+      display: block;
+      position: static;
+      background-color: rgb(255, 255, 255); 
+      z-index: 1;
+      padding-left:7%;
+      box-sizing: border-box;
+      overflow: hidden;
+      opacity: 0;
+      max-height: 0;
+      transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
+    }
+  
+    .dropdown:hover .dropdown-content {
+      opacity: 1;
+      max-height: 300px;
+    }
 
+    
     a {
       margin: 0;
       padding: 10px 20px;
@@ -372,7 +395,7 @@
 
 .nav__list {
   margin-bottom: 1.5em;
-
+  display: none;
   input[type="checkbox"],
   label {
     display: none;

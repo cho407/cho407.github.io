@@ -19,8 +19,8 @@ main:
     sublinks:
       - title: CS
         url: /CS/
-      - title: Architecture & Patterns
-        url: /architecture&Patterns/
+      - title: Architecture
+        url: /architecture/
       - title: Algorithms
         url: /algorithms/
       - title: Others
@@ -42,8 +42,8 @@ docs:
     children:
       - title: CS
         url: /CS/
-      - title: Architecture & Patterns
-        url: /architecture&Patterns/
+      - title: Architecture
+        url: /architecture/
       - title: Algorithms
         url: /algorithms/
       - title: Others
