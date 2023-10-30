@@ -2,7 +2,7 @@
 layout: category
 taxonomy: Algorithms
 title: Algorithms
-permalink: "/algorithms"
+permalink: "/algorithms/"
 author_profile: false
 sidebar: 
   nav: "docs"
