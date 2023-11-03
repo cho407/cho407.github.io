@@ -1,5 +1,6 @@
 ---
 title: "App Store 심사 지침에 따른 reject 사례와 해결 방안"
+description: "AppStore 심사 지침 이해와 reject 대응 관련한 겪은 상황과 방법 정리"
 categories: App
 tags: [개발, 트러블슈팅, 앱, iOS]
 sidebar: 

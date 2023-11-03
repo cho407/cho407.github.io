@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 locale                   : "ko-KR" # 언어설정
 title                    : "형구's iDevlog" # 블로그 제목
 title_separator          : "|"
-subtitle                 : "형구 개발 노트" # 블로그 소제목
+subtitle                 : "Swift 개발 노트" # 블로그 소제목
 name                     : "Hyunggu Cho"
 description              : "개발 기록 저장소"
 url                      : "https://cho407.github.io"
@@ -255,8 +255,8 @@ jekyll-archives:
     category: archive-taxonomy
     tag: archive-taxonomy
   permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+    category: /:categories/:name/
+    tag: /:tags/:name/
 
 
 # HTML Compression

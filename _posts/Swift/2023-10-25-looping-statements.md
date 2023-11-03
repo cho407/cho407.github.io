@@ -1,5 +1,6 @@
 ---
 title: "Swift 반복문 for-in, while, repeat-while의 비교"
+description: " Swift의 반복문을 공식문서와 실제 사용에 따른 성능적 비교와 사용 상황 정리"
 categories: Swift
 tags: [개발, Swift, SwiftUI, 문법, 반복문]
 sidebar: 

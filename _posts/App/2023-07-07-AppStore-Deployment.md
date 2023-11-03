@@ -1,5 +1,6 @@
 ---
 title: "첫 iOS앱 Grain App Store 출시 후기"
+description: "iOS 앱 AppStore 출시 후기와 아쉬웠던점과 배운점 정리"
 categories: App
 tags: [개발, 트러블슈팅, 앱, iOS]
 sidebar: 

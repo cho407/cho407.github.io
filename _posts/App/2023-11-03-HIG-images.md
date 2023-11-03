@@ -1,5 +1,6 @@
 ---
 title: "HIG에 따른 디지털 이미지의 기초와 배수 이미지의 사용의 이해"
+description: "HIG 의 가이드라인 에 따른 애플 배수 이미지의 이해"
 categories: App
 tags: [개발, HIG, 앱, iOS]
 sidebar: 

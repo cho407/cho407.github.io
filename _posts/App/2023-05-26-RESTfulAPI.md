@@ -1,5 +1,6 @@
 ---
 title: "실제 앱 적용 사례를 통한 Firebase SDK와 RESTful API 성능비교"
+description: "실제 앱 적용 사례를 통한 Firebase SDK와 RESTful API 성능비교"
 categories: App
 tags: [개발, 트러블슈팅, 앱, iOS]
 sidebar: 

@@ -1,5 +1,6 @@
 ---
 title: "ChatGPT plugin 만들기와 ChatGPT 활용"
+description: "ChatGPT 플러그인 개발과 그 실패 기록"
 categories: Other
 tags: [ChatGPT, 개발, 트러블슈팅]
 sidebar: 
