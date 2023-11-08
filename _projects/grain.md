@@ -29,9 +29,11 @@ sidebar:
 ## 주요 담당 업무
 - 앱 컨셉 구체화, 사용자 시나리오 구상 및 프로토타입, MVP 
 - 데이터 구조 설계
+- 로그인 기능
 - 게시물 검색 기능
 - 사용자 차단 및 신고 기능
-- 피드 화면 UI/UX 디자인
+- 피드 탭 구현
+- UI/UX 디자인
 - 사용자 피드백 관련 애니메이션 및 햅틱 피드백 기능(좋아요, 저장, 댓글 등)
 - 게시물 외부 앱으로 공유하는 기능
 - 이미지 렌더링 및 업로드 기능
@@ -59,13 +61,7 @@ sidebar:
 - 피드에 대한 공유 기능이 있습니다.
 - 피드 작성 기능에서는 사진 5장까지 업로드 가능하며, 피드에 보여줄 장비(카메라, 렌즈, 필름), 제목과 내용은 필수 입력사항입니다. 또한 지도에서 필름사진의 포토스팟 위치를 정해야 합니다. 나만의 장소를 입력해야 업로드가 가능하며, 검색 기능을 이용하여 원하는 지역 근처로 지도를 이동할 수 있습니다.
 
-
-
-  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/950f0cea-dbca-4e36-8e85-e878a54bc3f0" alt="피드 1" width="150" height="300"> <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/07f7c80f-954b-4b50-baa4-6dcf3abf2654" alt="피드 2,3" width="150" height="300">  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/3ef66dea-259a-4e18-867b-940c462c34bf" alt="피드4,5" width="150" height="300"> 
-
-   <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/4c4dfc28-dc0e-4e37-9e5a-52efeacf6ae9" alt="피드6" width="150" height="300"> <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/27cd1367-cadc-4047-8d1b-ee6dbb043d8e" alt="피드7" width="150" height="300"> <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/b4ab150a-3cfb-4b31-90e1-6bd8932d8d26" alt="피드8" width="150" height="300"> 
-  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/e08025e3-3522-4dd9-b80d-60feeb67f2d6" alt="피드9" width="150" height="300">
-
+  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/950f0cea-dbca-4e36-8e85-e878a54bc3f0" alt="피드 1" width="150" height="300"> <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/07f7c80f-954b-4b50-baa4-6dcf3abf2654" alt="피드 2,3" width="150" height="300">  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/3ef66dea-259a-4e18-867b-940c462c34bf" alt="피드4,5" width="150" height="300">
 
 
 ### 커뮤니티 탭
@@ -81,8 +77,6 @@ sidebar:
 
   <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/141cce08-801b-497b-865b-e5c494f1b3c1" alt="커뮤1,2" width="150" height="300"> <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/737395e2-0b5a-41e1-b980-42306fc5da65" alt="커뮤5,6" width="150" height="300">  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/5e76c676-846f-4bff-b8c9-15a6a7cee84a" alt="커뮤8" width="150" height="300">
 
-  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/e1779d18-97eb-4c76-a559-7565eef01e84" alt="커뮤9" width="150" height="300">
-
 
 ### 지도 탭
 
@@ -94,7 +88,7 @@ sidebar:
 
   <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/7c997670-3a20-4622-8470-6cf7c911ffd4" alt="지도1" width="150" height="300"> <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/56d9b787-e75d-4e98-a07e-9f6bf47757a8" alt="지도2" width="150" height="300">  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/63816f74-8606-4f40-9466-1177ab06026c" alt="지도3" width="150" height="300"> 
  
-  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/43db18c6-5bf4-4807-b2c2-709258f1c65a" alt="지도4" width="150" height="300"> <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/428525ef-aef0-4de1-9737-3c701fe2d3ab" alt="지도5" width="150" height="300"> <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/ec50f5ee-9cf5-43d2-be5f-2e17692cafb6" alt="피드8" width="150" height="300"> 
+ 
 
 
 ### 마이 페이지 탭
@@ -106,7 +100,7 @@ sidebar:
 
   <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/0499812f-a921-4caa-81ba-b87fce33888c" alt="마이1" width="150" height="300"> <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/765efa1c-1df7-4366-8df6-873016a1d65e" alt="마이3" width="150" height="300"> <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/0adafc63-2469-42c6-82f8-8b0f8a71e16f" alt="마이4" width="150" height="300">
 
-  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/c70b075f-225d-4ba4-b67c-7dff95626b92" alt="마이2" width="150" height="300">  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/bd8246b4-9a29-4261-93df-c6b159591d2d" alt="차단1" width="150" height="300">  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/3036ea35-492f-489f-8cd4-dfc3cd74801e" alt="차단2" width="150" height="300"> 
+ 
 
 ### 검색
 
