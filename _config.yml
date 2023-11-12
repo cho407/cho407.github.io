@@ -119,9 +119,9 @@ author:
     - label: "Medium"
       icon: "fab fa-fw fa-medium"
       url: "https://medium.com/@parfume407"
-    - label: "Naver"
-      icon: "fas fa-fw fa-link"
-      url: "https://blog.naver.com/winter407"      
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/hyunggu-cho-0570b225b"      
 
 # Site Footer
 footer:
@@ -132,12 +132,12 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "parfume407@gmail.com"
-    - label: "medium"
+    - label: "Medium"
       icon: "fab fa-fw fa-medium"
       url: "https://medium.com/@parfume407"
-    - label: "Naver"
-      icon: "fas fa-fw fa-link"
-      url: "https://blog.naver.com/winter407"        
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/hyunggu-cho-0570b225b"        
 
 
 
