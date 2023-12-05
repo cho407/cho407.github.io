@@ -93,6 +93,22 @@ let replacedString = originalString.replacingOccurrences(of: "World", with: "Swi
 let str = "Hello, World"
 let index = str.index(str.startIndex, offsetBy: 7)
 let substring = str[index...]  // "World"
+
+// swift 5
+let str = "Hello, Swift"
+
+// 첫 번째 문자부터 특정 위치까지 추출
+let start = str.startIndex
+let end = str.index(start, offsetBy: 4)
+let substring1 = str[start...end]  // "Hello"
+
+// 특정 위치부터 끝까지 추출
+let start2 = str.index(str.startIndex, offsetBy: 7)
+let substring2 = str[start2...]  // "Swift"
+
+// 특정 범위 내 추출
+let range = start2...end
+let substring3 = str[range]  // "Swif"
 ```
     
 4. **`trimmingCharacters(in:)`**
