@@ -113,9 +113,7 @@ let uppercased = originalString.uppercased()  // "SWIFT"
 let string = "Hello, Swift"
 let hasPrefix = string.hasPrefix("Hello")  // true
 let hasSuffix = string.hasSuffix("Swift")  // true
-
 ```
-    
 
 ### 세트(Set) 관련 메소드
 
@@ -135,7 +133,6 @@ numbers.remove(3)  // [1, 2, 4]
 ```swift
 let numbers: Set = [1, 2, 3]
 let containsTwo = numbers.contains(2)  // true
-
 ```
     
 4. **`union(_:)`**
