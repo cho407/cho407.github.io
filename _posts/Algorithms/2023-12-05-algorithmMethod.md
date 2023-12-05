@@ -14,7 +14,6 @@ header:
 ```swift
 var numbers = [1, 2, 3]
 numbers.append(4)  // [1, 2, 3, 4]
-
 ```
     
 2. **`insert(_:at:)`**
@@ -22,6 +21,7 @@ numbers.append(4)  // [1, 2, 3, 4]
 var letters = ["a", "b", "d"]
 letters.insert("c", at: 2)  // ["a", "b", "c", "d"]
 ```
+
 3. **`remove(at:)`**
 ```swift
 var fruits = ["Apple", "Banana", "Cherry"]
