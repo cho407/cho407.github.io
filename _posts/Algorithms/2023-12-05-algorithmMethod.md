@@ -198,7 +198,6 @@ let filtered = numbers.filter { $0.key % 2 == 0 }  // [2: "Two"]
 ```swift
 let numbers = [1: "One", 2: "Two", 3: "Three"]
 let mappedValues = numbers.mapValues { $0.uppercased() }  // [1: "ONE", 2: "TWO", 3: "THREE"]
-
 ```
     
 
