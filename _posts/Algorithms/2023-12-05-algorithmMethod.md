@@ -89,6 +89,7 @@ let replacedString = originalString.replacingOccurrences(of: "World", with: "Swi
 ```
     
 3. **`substring(with:)`** (Swift 5에서는 `String`의 일부를 추출하는 다른 방법 사용)
+
 ```swift
 let str = "Hello, World"
 let index = str.index(str.startIndex, offsetBy: 7)
@@ -112,6 +113,7 @@ let substring3 = str[range]  // "Swif"
 ```
     
 4. **`trimmingCharacters(in:)`**
+
 ```swift
 let rawString = "  Hello, Swift  "
 let trimmedString = rawString.trimmingCharacters(in: .whitespaces)  // "Hello, Swift"
