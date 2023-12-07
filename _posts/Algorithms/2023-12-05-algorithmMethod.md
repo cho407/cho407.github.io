@@ -88,7 +88,7 @@ let originalString = "Hello, World"
 let replacedString = originalString.replacingOccurrences(of: "World", with: "Swift")  // "Hello, Swift"
 ```
     
-3. **`substring(with:)`** (Swift 5에서는 `String`의 일부를 추출하는 다른 방법 사용)
+3. **`substring(with:)`**
 ```swift
 let str = "Hello, World"
 let index = str.index(str.startIndex, offsetBy: 7)
