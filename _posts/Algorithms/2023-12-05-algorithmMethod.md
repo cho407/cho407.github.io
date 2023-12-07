@@ -133,6 +133,14 @@ let string = "hello"
 let reversed = String(string.reversed()) // olleh
 ```
 
+7. **String -> String.element 배열**
+```swift
+let hello: String = "hello"
+let helloArr = Array(hello) // ["h", "e", "l", "l", "o"]
+let stringArr = hello.map(String.init) // ["h", "e", "l", "l", "o"]
+// 출력 형태는 같아보이지만 [hello] 타입과 [String] 타입으로 차이남
+```
+
 ### 세트(Set) 관련 메소드
 
 1. **`insert(_:)`**
