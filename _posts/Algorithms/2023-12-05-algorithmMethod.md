@@ -131,6 +131,12 @@ let hasPrefix = string.hasPrefix("Hello")  // true
 let hasSuffix = string.hasSuffix("Swift")  // true
 ```
 
+7. **.reversed()**
+```swift
+let string = "hello"
+let reversed = String(string.reversed()) // olleh
+```
+
 ### 세트(Set) 관련 메소드
 
 1. **`insert(_:)`**
@@ -178,6 +184,13 @@ let set1: Set = [1, 2]
 let set2: Set = [1, 2, 3, 4]
 let isSubset = set1.isSubset(of: set2)  // true
 ```
+
+8. **`allSatisfy(_:)`**
+```
+let numbers = [28, 32, 64, 90]
+let passed = numbers.allSatisfy { $0 >= 28 }
+```
+
     
 
 ### 딕셔너리(Dictionary) 관련 메소드
