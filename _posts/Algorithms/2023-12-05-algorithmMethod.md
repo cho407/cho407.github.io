@@ -72,7 +72,14 @@ let lastIndex = numbers.lastIndex(of: 2)  // 3
 let fruits = ["Apple", "Banana", "Cherry"]
 let containsApple = fruits.contains("Apple")  // true
 ```
-    
+11. **`compactMap(_:)`**    
+```swift
+let possibleNumbers = ["1", "2", "three", "///4///", "5"]
+let mapped: [Int?] = possibleNumbers.map { str in Int(str) } // [1, 2, nil, nil, 5]
+let compactMapped: [Int] = possibleNumbers.compactMap { str in Int(str) } // [1, 2, 5]
+let n: Int = 1234
+let numArray: [Int] = String(n).compactMap { Int(String($0)) } // [1, 2, 3, 4]
+```
 
 ### 문자열(String) 관련 메소드
 
@@ -133,7 +140,7 @@ let string = "hello"
 let reversed = String(string.reversed()) // olleh
 ```
 
-7. **String -> String.element 배열**
+8. **String -> String.element 배열**
 ```swift
 let hello: String = "hello"
 let helloArr = Array(hello) // ["h", "e", "l", "l", "o"]
