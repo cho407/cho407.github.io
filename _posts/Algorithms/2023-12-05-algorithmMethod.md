@@ -81,6 +81,16 @@ let n: Int = 1234
 let numArray: [Int] = String(n).compactMap { Int(String($0)) } // [1, 2, 3, 4]
 ```
 
+12. **`enumerated()`**    
+```swift
+var numbers = [3, 1, 4, 1]
+let enumeratedNumbers = numbers.enumerated().sorted { $0.element < $1.element }
+let sortedNumbers = enumeratedNumbers.map { $0.element }
+let originalIndices = enumeratedNumbers.map { $0.offset }
+print("Sorted Numbers: \(sortedNumbers)")  // [1, 1, 3, 4]
+print("Original Indices: \(originalIndices)")  // 원래 배열에서 각 정렬된 요소의 인덱스
+```
+
 ### 문자열(String) 관련 메소드
 
 1. **`split(separator:)`**
@@ -97,10 +107,6 @@ let replacedString = originalString.replacingOccurrences(of: "World", with: "Swi
     
 3. **`substring(with:)`**
 ```swift
-let str = "Hello, World"
-let index = str.index(str.startIndex, offsetBy: 7)
-let substring = str[index...]  // "World"
-// swift 5
 let str = "Hello, Swift"
 // 첫 번째 문자부터 특정 위치까지 추출
 let start = str.startIndex
@@ -197,7 +203,7 @@ let isSubset = set1.isSubset(of: set2)  // true
 ```
 
 8. **`allSatisfy(_:)`**
-```
+```swift
 let numbers = [28, 32, 64, 90]
 let passed = numbers.allSatisfy { $0 >= 28 }
 ```
