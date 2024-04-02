@@ -1,6 +1,6 @@
 ---
 title: "Swift 5.10 ver ChangeLoge 번역"
-description: "Swift 5.10 ver ChangeLoge 번역""
+description: "Swift 5.10 ver ChangeLoge 번역"
 categories: Swift
 tags: [개발, Swift, ChangLog]
 sidebar: 
