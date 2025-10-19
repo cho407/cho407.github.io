@@ -7,7 +7,7 @@ header:
   actions:
     - label: "Project Github"
       url: "https://github.com/cho407/CaptionMate"
-  teaser: /assets/images/CMpreview.png
+  teaser: /assets/images/CMPreview.png
 sidebar:
   - title: "프로젝트 명"
     text: "Caption Mate"
@@ -53,7 +53,7 @@ CaptionMate는 AI를 활용해 음성을 텍스트로 전사해 자막 파일 �
 - 모델 다운로드 및 삭제 지원
 - CPU, GPU, Neural Engine 세 가지 compute units 지원
 
-  <img src="https://github.com/user-attachments/assets/c2f23ed3-6203-4fb0-9936-d3eb2549f19f" alt="모델 관리" width="400" height="600"><img src="https://github.com/user-attachments/assets/89bf61cb-dfce-45b5-a01e-02574f3d6dc1" alt="연산 유닛" width="400" height="600">
+  <img src="https://github.com/user-attachments/assets/c2f23ed3-6203-4fb0-9936-d3eb2549f19f" alt="모델 관리" width="800"><img src="/assets/images/unit.png" alt="연산 유닛" width="800">
 
 
 ### 음성 전사(Transcription) 및 자막 생성
@@ -67,7 +67,7 @@ CaptionMate는 AI를 활용해 음성을 텍스트로 전사해 자막 파일 �
 - SRT, WebVTT, JSON, Final Cut Pro XML 지원
 - FCPXML파일로 바로 Final cut Pro 자막 클립 생성
 
-  <img src="https://github.com/user-attachments/assets/9ee00eb1-f480-4976-b99b-1e56108a3a55" alt="고급 설정" width="400" height="600"><img src="https://github.com/user-attachments/assets/c16ea6f8-ceee-4f97-894e-ec3b36a3fa2a" alt="전사 결과" width="400" height="600"><img src="https://github.com/user-attachments/assets/0ba88f70-f56b-4938-859c-274aaaaf0803" alt="자막 내보내기" width="400" height="600">
+  <img src="https://github.com/user-attachments/assets/9ee00eb1-f480-4976-b99b-1e56108a3a55" alt="고급 설정" width="800"><img src="https://github.com/user-attachments/assets/c16ea6f8-ceee-4f97-894e-ec3b36a3fa2a" alt="전사 결과" width="800"><img src="https://github.com/user-attachments/assets/0ba88f70-f56b-4938-859c-274aaaaf0803" alt="자막 내보내기" width="800">
 
 
 ### 음성파일 미리듣기
@@ -76,7 +76,7 @@ CaptionMate는 AI를 활용해 음성을 텍스트로 전사해 자막 파일 �
 - 배속, 음량조절, 파형 제공
 - 플레이어 단축키 제공
 
-  <img src="https://github.com/user-attachments/assets/a4a6ee8c-f1a8-49fa-b3e5-cc14150c544b" alt="플레이어" width="400" height="600">
+  <img src="/assets/images/player.png" alt="플레이어" width="800">
 
 
 ### 다국어 및 다크모드 지원
@@ -84,7 +84,7 @@ CaptionMate는 AI를 활용해 음성을 텍스트로 전사해 자막 파일 �
 - 다크모드 지원
 - 영어, 한국어 언어설정 지원
 
-  <img src="https://github.com/user-attachments/assets/5ff7a473-e12c-45b3-8046-754742df4efe" alt="다크 모드" width="400" height="600"><img src="https://github.com/user-attachments/assets/95a0abb3-6b33-4c11-a637-ec966df0cadd" alt="다국어 지원" width="400" height="600">
+  <img src="https://github.com/user-attachments/assets/5ff7a473-e12c-45b3-8046-754742df4efe" alt="다크 모드" width="800"><img src="https://github.com/user-attachments/assets/95a0abb3-6b33-4c11-a637-ec966df0cadd" alt="다국어 지원" width="800">
 
 ## 사용자 플로우 (User Flow)
 <p align="center">
