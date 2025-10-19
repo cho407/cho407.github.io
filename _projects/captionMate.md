@@ -43,79 +43,65 @@ sidebar:
 매 영상마다 자막을 직접 치느라 업로드가 늦어지는 컨텐츠 크리에이터.
 
 ## ADS
-CaptionMate는 AI를 활용해 음성을 텍스트로 전사해 자막 파일 형식(SRT/FCPXML/WebVTT/JSON)으로 만들어, 자막 작업 시간을 획기적으로 줄여주는 앱 입니다.
+CaptionMate는 AI를 활용해 음성을 텍스트로 전사해 자막 파일 형식(SRT/FCPXML/WebVTT/JSON)으로 만들어, 자막 작업 시간을 획기적으로 줄여주는 앱입니다.
 
 ## 주요기능
 
 ### Whisper AI 모델 관리
 
-- Grain 에디터가 작성한 큐레이션 피드도 제공됩니다.
-- 인기 피드글은 좋아요 순으로, 실시간 피드글은 최신순으로 정렬됩니다.
-- 실시간 피드글에서는 구독자 필터 기능을 이용하여 자신이 구독한 사람의 피드글만 확인할 수 있습니다.
-- 피드에서는 찍은 사진에 대한 카메라, 필름, 렌즈 정보를 함께 공유할 수 있습니다.
-- 댓글, 대댓글 기능을 통해 다른 사용자와 소통할 수 있으며, 피드에 대한 좋아요와 저장 기능도 있습니다.
-- 자신이 작성한 피드의 제목과 내용만 수정, 삭제할 수 있습니다.
-- 다른 유저의 피드에 대한 신고 기능도 있습니다.
-- 피드에 대한 공유 기능이 있습니다.
-- 피드 작성 기능에서는 사진 5장까지 업로드 가능하며, 피드에 보여줄 장비(카메라, 렌즈, 필름), 제목과 내용은 필수 입력사항입니다. 또한 지도에서 필름사진의 포토스팟 위치를 정해야 합니다. 나만의 장소를 입력해야 업로드가 가능하며, 검색 기능을 이용하여 원하는 지역 근처로 지도를 이동할 수 있습니다.
+- Tiny, Small, Base, Large 등 다양한 성능의 Whisper AI 모델 지원
+- 모델 다운로드 및 삭제 지원
+- CPU, GPU, Neural Engine 세 가지 compute units 지원
 
-  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/950f0cea-dbca-4e36-8e85-e878a54bc3f0" alt="피드 1" width="150" height="300"> <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/07f7c80f-954b-4b50-baa4-6dcf3abf2654" alt="피드 2,3" width="150" height="300">  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/3ef66dea-259a-4e18-867b-940c462c34bf" alt="피드4,5" width="150" height="300">
+  <img src="https://github.com/user-attachments/assets/c2f23ed3-6203-4fb0-9936-d3eb2549f19f" alt="모델 관리" width="250" height="400"><img src="https://github.com/user-attachments/assets/89bf61cb-dfce-45b5-a01e-02574f3d6dc1" alt="연산 유닛" width="250" height="400">
 
 
-### 음성 전사(Transcription)
+### 음성 전사(Transcription) 및 자막 생성
 
-- 매칭, 마켓, 클래스, 정보 카테고리에서 각 분야별 모집글을 확인할 수 있습니다.
-- 댓글, 대댓글 기능을 통해 다른 사용자와 소통할 수 있습니다.
-- 모든 게시글은 최신순으로 정렬됩니다.
-- 모집완료, 판매완료 등의 게시글은 스크롤 아래에 배치됩니다.
-- 커뮤니티 작성 기능은 사진 5장까지 업로드 가능하며, 제목과 내용은 필수 입력 사항입니다.
-- 작성한 게시글의 제목과 내용만 수정 가능하며, 모집/판매 상태를 변경하거나 삭제할 수 있습니다.
-- 커뮤니티 게시글은 저장 기능이 있어 마이 페이지에서 확인 가능합니다.
-- 다른 유저 게시글에 대한 신고 기능도 있습니다.
+- 상세 설정 지원
+- 고성능 STT 지원
+- 영어로 자동 번역 지원
+- 다국어 지원
+- RTF, Speed Factor, tok/s, First token 값 제공
+- 자동 언어 감지 지원
+- SRT, WebVTT, JSON, Final Cut Pro XML 지원
+- FCPXML파일로 바로 Final cut Pro 자막 클립 생성
 
-  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/141cce08-801b-497b-865b-e5c494f1b3c1" alt="커뮤1,2" width="150" height="300"> <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/737395e2-0b5a-41e1-b980-42306fc5da65" alt="커뮤5,6" width="150" height="300">  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/5e76c676-846f-4bff-b8c9-15a6a7cee84a" alt="커뮤8" width="150" height="300">
+  <img src="https://github.com/user-attachments/assets/9ee00eb1-f480-4976-b99b-1e56108a3a55" alt="고급 설정" width="250" height="400"><img src="https://github.com/user-attachments/assets/c16ea6f8-ceee-4f97-894e-ec3b36a3fa2a" alt="전사 결과" width="250" height="400"><img src="https://github.com/user-attachments/assets/0ba88f70-f56b-4938-859c-274aaaaf0803" alt="자막 내보내기" width="250" height="400">
 
 
-### 자막 파일 내보내기
+### 음성파일 미리듣기
 
-- 현재 위치에서 가까운 포토스팟, 현상소, 수리점을 지도상에 표시해줍니다.
-- 피드에 글을 등록하면 해당 위치가 지도에 표시되어 다른 사용자들도 확인할 수 있습니다.
-- 포토스팟 마커를 클릭하면 가까운 포토스팟 피드도 확인할 수 있습니다.
-- 검색 기능을 이용하여 원하는 지역 근처의 포토스팟, 현상소, 수리점을 찾아볼 수 있습니다.
-- 제보 기능을 이용하여 등록되지 않은 현상소, 수리점 위치 정보를 제보할 수 있습니다.
+- 음성 파일 미리듣기 플레이어 제공
+- 배속, 음량조절, 파형 제공
+- 플레이어 단축키 제공
 
-  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/7c997670-3a20-4622-8470-6cf7c911ffd4" alt="지도1" width="150" height="300"> <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/56d9b787-e75d-4e98-a07e-9f6bf47757a8" alt="지도2" width="150" height="300">  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/63816f74-8606-4f40-9466-1177ab06026c" alt="지도3" width="150" height="300"> 
- 
- 
+  <img src="https://github.com/user-attachments/assets/a4a6ee8c-f1a8-49fa-b3e5-cc14150c544b" alt="플레이어" width="250" height="400">
 
 
 ### 다국어 및 다크모드 지원
 
-- Grain에서 다른 사용자에게 공개되는 내 정보를 확인할 수 있습니다.
-- 구독자 및 현재 구독 중인 사용자 목록을 확인할 수 있습니다.
-- 보유한 카메라 및 렌즈 등의 장비 정보를 확인할 수 있습니다.
-- 내가 업로드한 피드들을 모아 볼 수 있는 기능이 제공됩니다.
+- 다크모드 지원
+- 영어, 한국어 언어설정 지원
 
-  <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/0499812f-a921-4caa-81ba-b87fce33888c" alt="마이1" width="150" height="300"> <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/765efa1c-1df7-4366-8df6-873016a1d65e" alt="마이3" width="150" height="300"> <img src="https://github.com/APPSCHOOL1-REPO/finalproject-grain/assets/73868968/0adafc63-2469-42c6-82f8-8b0f8a71e16f" alt="마이4" width="150" height="300">
+  <img src="https://github.com/user-attachments/assets/5ff7a473-e12c-45b3-8046-754742df4efe" alt="다크 모드" width="250" height="400"><img src="https://github.com/user-attachments/assets/95a0abb3-6b33-4c11-a637-ec966df0cadd" alt="다국어 지원" width="250" height="400">
 
 
 ## 개발 환경
-- Xcode ver. 14.2
+- Xcode ver. 16.0
 - Figma
 - Github
-- Swift ver. 5.7.2
+- Swift ver. 6.0.3
 - SwiftUI
+- mint
+- Github Actions
 
 ## 라이브러리 및 프레임워크
-- AppleNotification
-- AppleLogin
-- GoogleLogin
-- KingFisher
-- NaverMap
-- FirebaseAuth
-- FireStore
-- FirebaseStorage
-- FirebaseMessage
+- WhisperKit
+- CoreML
+- AVFoundation
+- UniformTypeIdentifiers
+- Whisper
 
 ## 관련 링크
 - [앱스토어](https://apps.apple.com/kr/app/%EC%BA%A1%EC%85%98-%EB%A9%94%EC%9D%B4%ED%8A%B8-captionmate-%EC%9E%90%EB%8F%99-%EC%9E%90%EB%A7%89-%EC%83%9D%EC%84%B1/id6753956825?mt=12)
