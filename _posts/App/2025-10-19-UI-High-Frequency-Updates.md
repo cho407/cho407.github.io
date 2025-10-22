@@ -558,13 +558,13 @@ class TranscriptionService: ObservableObject {
 
 1. **단기**: 고빈도 업데이트 상태만 분리 (AudioPlaybackState, ModelManagementState)
 2. **중기**: 주요 기능별 Service 분리 고려
-3. **장기**: 전체 아키텍처 재설계 (필요시)
+3. **장기**: 전체 아키텍처 재설계
 
 ### 왜 점진적 접근을 선택했나?
 
 1. **즉각적인 문제 해결**: 메뉴바 깜빡임은 바로 해결됨
 2. **최소한의 변경**: 기존 코드를 크게 수정하지 않음
-3. **학습 곡선**: 팀원들이 새로운 패턴을 학습할 시간 확보
+3. **학습 곡선**: 새로운 패턴을 학습할 시간 확보
 4. **리스크 관리**: 대규모 리팩토링은 새로운 버그를 만들 수 있음
 
 ## 교훈 및 베스트 프랙티스
@@ -694,4 +694,4 @@ SwiftUI의 `ObservableObject`는 강력하지만, 잘못 사용하면 불필요�
 
 ---
 
-**프로젝트**: [CaptionMate](https://github.com/cho407/CaptionMate)  
+**프로젝트**: [CaptionMate](https://github.com/cho407/CaptionMate)
