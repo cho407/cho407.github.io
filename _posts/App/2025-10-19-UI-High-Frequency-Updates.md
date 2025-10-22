@@ -668,15 +668,12 @@ class AudioPlaybackState: ObservableObject {
 ### 변경 전
 - 오디오 재생 중 전체 View 계층 재렌더링: **30fps (초당 30회)**
 - 메뉴바 재렌더링: **30fps**
-- CPU 사용량: **15-20%** (M1 Pro 기준)
 - 메뉴 선택 불가 ❌
 
 ### 변경 후
 - AudioControlView, WaveFormView만 재렌더링: **30fps**
 - 메뉴바 재렌더링: **0fps (변경 없음)**
-- CPU 사용량: **8-12%** (M1 Pro 기준)
 - 메뉴 선택 정상 작동 ✅
-- **CPU 사용량 약 40% 감소**
 
 ## 결론
 
